@@ -1,6 +1,6 @@
 int numOfStudents(vector<int> A,int givenCountOfStudents,long allocatedRange){
     int students = 1;
-    long required_Range_For_student = 0;
+    long required_Range_For_a_student = 0;
     
     for(int i=0;i<A.size();i++)
     {
